@@ -3,7 +3,8 @@
 ## Overview
 This project investigates the dynamic response of a single-degree-of-freedom mass-spring-damper system subjected to an external harmonic force. The physical system is modeled using a second-order ordinary differential equation (ODE), which is then converted into a system of first-order ODEs and solved using both analytical and numerical techniques in Python.
 
-<img src="figures/system_diagram.png" width="600">
+![system_diagram](figures/system_diagram.png)
+
 ---
 
 ## Mathematical Modeling
