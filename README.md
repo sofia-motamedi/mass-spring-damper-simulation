@@ -32,7 +32,7 @@ Initial conditions are set to $x(0) = 0 \text{ m}$ and $v(0) = 0 \text{ m/s}$ ov
 ---
 
 ## Analytical Solution
-The analytical solution combines the homogeneous solution ($x_h(t)$) of the damped oscillator and the particular solution ($x_p(t)$) driven by the harmonic forcing function using the method of undetermined coefficients:
+The analytical solution combines the homogeneous solution $(x_h(t))$ of the damped oscillator and the particular solution $(x_p(t))$ driven by the harmonic forcing function using the method of undetermined coefficients:
 
 $$x(t) = e^{-0.1t} \left[ 0.0008928 \cos(1.411t) + 0.11896 \sin(1.411t) \right] - 0.02664 \sin(2\pi t) - 0.0008928 \cos(2\pi t)$$
 
@@ -44,7 +44,7 @@ Four distinct numerical integration schemes were implemented in Python using Num
 1. Euler Method: A first-order explicit method that uses current slopes to advance the solution. Simple to implement but prone to cumulative error and instability in oscillatory systems.
 2. Predictor-Corrector Method: Improves accuracy by predicting a tentative next state using the Euler step and then correcting it using averaged derivatives.
 3. Heun's Method (Modified Euler): A second-order Runge-Kutta method that averages the initial and predicted slopes to achieve higher stability and accuracy.
-4. 4th Order Runge-Kutta (RK4): Evaluates four increment stages per time step to provide high-order accuracy ($\mathcal{O}(\Delta t^4)$), making it ideal for sensitive or highly oscillatory dynamical systems.
+4. 4th Order Runge-Kutta (RK4): Evaluates four increment stages per time step to provide high-order accuracy $\mathcal{O}(\Delta t^4)$, making it ideal for sensitive or highly oscillatory dynamical systems.
 
 ---
 
@@ -66,7 +66,8 @@ Four distinct numerical integration schemes were implemented in Python using Num
 ![RK4 Method Response](figures/rk4_response.png)
 *High-precision dynamic response obtained using the RK4 method.*
 ### 5. Comparative Analysis of All Numerical Methods
-![Methods Comparison](figures/comparison.png)
+![Methods Comparison](figures/comparison-displacement.png)
+![Methods Comparison](figures/comparison-velocity.png)
 *Overlay comparison of displacement and velocity trajectories across all four numerical solvers.*
 
 ---
