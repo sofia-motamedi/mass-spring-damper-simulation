@@ -52,7 +52,7 @@ Four distinct numerical integration schemes were implemented in Python using Num
 
 ### 1. Euler Method Response
 ![Euler Method Response](figures/euler_response.png)
-*Dynamic response of displacement $ x(t) $ and velocity $ v(t) $ using the Euler method.*
+*Dynamic response of displacement $$x(t)$$ and velocity $$v(t)$$ using the Euler method.*
 
 ### 2. Predictor-Corrector Method Response
 ![Predictor-Corrector Response](figures/predictor_corrector_response.png)
