@@ -1,7 +1,8 @@
 # Numerical Simulation and Comparative Analysis of a Mass-Spring-Damper System
 
 ## Overview
-This project investigates the dynamic response of a single-degree-of-freedom mass-spring-damper system subjected to an external harmonic force[span_2](start_span)[span_2](end_span). The physical system is modeled using a second-order ordinary differential equation (ODE), which is then converted into a system of first-order ODEs and solved using both analytical and numerical techniques in Python[span_3](start_span)[span_3](end_span).
+This project investigates the dynamic response of a single-degree-of-freedom mass-spring-damper system subjected to an external harmonic force. The physical system is modeled using a second-order ordinary differential equation (ODE), which is then converted into a system of first-order ODEs and solved using both analytical and numerical techniques in Python.
+![system_diagram](figures/system_diagram.png)
 
 ---
 
